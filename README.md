@@ -9,10 +9,10 @@ python main.py <map-file>
 ```
 ## Architecture
 There are 3 python files, namely main.py, map.py and tile.py.
-### main.py
+### main.py (RUNNER)
 Reads in the map.
 Creates the tile and map objects
-### map.py
+### map.py (CLASS FILE)
 Map class which creates a 2d array of tile objects
-### tile
+### tile.py (CLASS FILE)
 Tile class which calculates the type of terrain
