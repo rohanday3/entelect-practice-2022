@@ -1,5 +1,3 @@
-from enum import Enum
-import os
 from tile import Tile, TileType
 from colorama import Fore
 from colorama import Style
